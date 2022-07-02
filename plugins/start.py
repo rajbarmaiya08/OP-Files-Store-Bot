@@ -90,10 +90,10 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                     [
-                        InlineKeyboardButton("𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴", url="https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA")                        
+                        InlineKeyboardButton("𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴", url="https://www.youtube.com/channel/UC4ZlubILuJcXN0yTh6suodA")                        
                     ],
                     [
-                        InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃", callback_data = "about"),
+                        InlineKeyboardButton("JOIN GROUP", url = "https://t.me/moviesondemandagain"),
                         InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴", callback_data = "close")
                     ]
                 ]
